@@ -24,7 +24,7 @@
     --bg-1: #C2FFC2;
     --bg-2: #FFC2FF;
     --bg-3: #FFFFBE;
-    --color-2: #8C508C;
+    --color-2: #303093;
     --font-family: "Edu AU VIC WA NT Guides", cursive;
     --font-family-2: "Playwrite DE Grund", cursive;
     --main-width: 1280px;
@@ -165,27 +165,6 @@
           box-sizing: border-box;
           display: flex;
           place-content: center;
-
-          /* * {
-            margin: 0 4px;
-          } */
-
-          /* .valuta {
-            margin-left: 0;
-          } */
-
-          /* .minus,
-          .plus {
-            cursor: pointer;
-            background: var(--bg-1);
-            width: 24px;
-            display: inline-block;
-            margin: 0 4px;
-            text-align: center;
-            border-radius: 100%;
-            height: 24px;
-            color: green;
-          } */
         }
       }
 
@@ -254,43 +233,10 @@
     &:hover {
       transform: scale(1.1);
     }
-
-    /* &.addTocart {
-      background: var(--bg-2);
-      color: var(--color-2);
-      box-shadow: none;
-      border: 0;
-      border-radius: 100% 32px 100% 100%;
-      width: 80px;
-      height: 80px;
-
-      span {
-        font-size: 30px;
-      }
-    } */
   }
-
-  /* @media(max-width:950px) { */
-
-    /* .hero {
-      .text {
-        padding: 0;
-        background: #ffffffb2;
-      }
-
-      .right {
-        display: none;
-      }
-
-      .left {
-        position: relative;
-        z-index: 10;
-        max-width: 100%;
-        font-size: 3.5vw;
-        line-height: normal;
-      }
-    } */
-  /* } */
+  .border-bottom{
+    color: #303093;
+  }
 </style>
 
 <body>
@@ -325,7 +271,7 @@
   <!--nav end-->
   <div class="breadcrumbs">
     <div class="row py-5">
-      <h1 class="section-title ff-secondary text-info fw-normal text-white text-center "><span
+      <h1 class="section-title ff-secondary fw-normal text-white text-center "><span
           class="border-bottom">Product</span></h1>
       <div>
         <ol class="breadcrumb justify-content-center text-uppercase">
@@ -340,17 +286,13 @@
   <div class="container mt-4">
     <div class="hero">
       <video class="vjs-tech" id="vjs_video_3_html5_api" tabindex="-1" muted="muted" autoplay="autoplay"
-        src="video1.mp4"></video>
+        src="https://cdn.pixabay.com/video/2016/08/08/4315-178218581_large.mp4"></video>
       <div class="text">
         <div class="left">
-          <!-- <h1>Welcome to Beautiful bakery</h1> -->
+          <h1>Milk is a good source of essential nutrients, including calcium, riboflavin, phosphorous, vitamins A and B12, potassium, magnesium, zinc, and iodine.</h1>
           <h5>Crafting fresh, artisanal breads, pastries, and desserts made from the finest ingredients.</h5>
           <button class="callto">discover menu</button>
         </div>
-        <!-- <div class="right"> 
-            <div class="img-container"><img src="paneer1.jpg" alt="product image"/></div>
-            <div class="img-container"><img src="gheep.jpg" alt="product image"/></div>
-          </div> -->
       </div>
     </div>
   </div>
@@ -360,96 +302,32 @@
       <div class="products-container mt-4">
         <div class="single"><span class="badge"></span>
           <div class="img-container"><img src="dahi1.jpg" alt="product image" />
-            <!-- <div class="price"> <span class="minus">-</span><span class="calc"> <span class="quantity">1</span><span
-                  class="symbol">=</span><span class="tot">5</span><span class="valuta">$</span></span><span
-                class="plus">+</span></div> -->
           </div>
-          <!-- <div class="button-container">
-              <button class="addTocart"> <span class="fa-solid fa-cart-shoppingd">add_shopping_cart</span></button>
-            </div> -->
           <h2 class="mt-2">Omfed Curd</h2>
-          <!-- <p>Lorem ipsum sit amen lorem ipsum sit amen</p> -->
           <div class="tags mt-2"><span>Sweet Curd</span><span>Whole Milk curd</span><span>SugarFree Sweet Curd</span></div>
         </div>
         <div class="single"><span class="badge"></span>
           <div class="img-container"><img src="lassi.jpg" alt="product image" />
-            <!-- <div class="price"> <span class="minus">-</span><span class="calc"> <span class="quantity">1</span><span
-                  class="symbol">=</span><span class="tot">4</span><span class="valuta">$</span></span><span
-                class="plus">+</span></div> -->
           </div>
-          <!-- <div class="button-container">
-              <button class="addTocart"> <span class="material-symbols-outlined">add_shopping_cart</span></button>
-            </div> -->
           <h2 class="mt-2">Omfed Lassi</h2>
-          <!-- <p>Lorem ipsum sit amen lorem ipsum sit amen</p> -->
           <div class="tags mt-2"><span>aam lassi</span><span></span></div>
         </div>
         <div class="single"><span class="badge"></span>
           <div class="img-container"><img src="butter.jpg" alt="product image" />
-            <!-- <div class="price"> <span class="minus">-</span><span class="calc"> <span class="quantity">1</span><span
-                  class="symbol">=</span><span class="tot">4.3</span><span class="valuta">$</span></span><span
-                class="plus">+</span></div> -->
           </div>
-          <!-- <div class="button-container">
-              <button class="addTocart"><span class="material-symbols-outlined">add_shopping_cart</span></button>
-            </div> -->
           <h2 class="mt-2">Omfed Butter</h2>
-          <!-- <p>Lorem ipsum sit amen lorem ipsum sit amen</p> -->
           <div class="tags mt-2"><span>ciocolate</span><span>waffle</span></div>
         </div>
       </div>
       <div class="single"><span class="badge"></span>
         <div class="img-container"><img src="paneer1.jpg" alt="product image" />
-          <!-- <div class="price"> <span class="minus">-</span><span class="calc"> <span class="quantity">1</span><span
-                class="symbol">=</span><span class="tot">4.3</span><span class="valuta">$</span></span><span
-              class="plus">+</span></div> -->
         </div>
-        <!-- <div class="button-container">
-            <button class="addTocart"><span class="material-symbols-outlined">add_shopping_cart</span></button>
-          </div> -->
         <h2 class="mt-2">Omfed Paneer</h2>
-        <!-- <p>Lorem ipsum sit amen lorem ipsum sit amen</p> -->
         <div class="tags mt-2"><span>ciocolate</span><span>waffle</span></div>
       </div>
     </div>
     </main>
   </div>
-  <!--carousel end-->
- 
-  <!-- <script>
-    let quantity = 1;
-    const pricePerUnit = 5;
-
-    function updateDisplay() {
-      const quantityElement = document.querySelector('.quantity');
-      const totalElement = document.querySelector('.tot');
-
-      quantityElement.textContent = quantity;
-      totalElement.textContent = quantity * pricePerUnit;
-    }
-
-    function increment() {
-      quantity++;
-      updateDisplay();
-    }
-
-    function decrement() {
-      if (quantity > 1) {
-        quantity--;
-        updateDisplay();
-      }
-    }
-
-    // Aggiungi eventi ai bottoni dopo il caricamento della pagina
-    document.addEventListener("DOMContentLoaded", () => {
-      document.querySelector('.minus').addEventListener('click', decrement);
-      document.querySelector('.plus').addEventListener('click', increment);
-
-      // Inizializza il display
-      updateDisplay();
-    });
-
-  </script> -->
   <!--footer satrt-->
   <div class="footer  mt-4 p-5 ">
     <div class="container">
