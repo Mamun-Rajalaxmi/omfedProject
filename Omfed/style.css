@@ -40,9 +40,9 @@
  .fullservice:hover * {
             color: var(--light)!important;
  }
-  h1{
+  /* h1{
     font-size: x-large;
-  }
+  } */
    /* .breadcrumb{
     background-color:transparent !important;
    } */
@@ -64,7 +64,9 @@
      }
  }
 
-  
+  .px-5{
+    color: #303093;
+  }
    .row {
     margin-top: calc(var(--bs-gutter-y)* -1);
     margin-right: calc(var(--bs-gutter-x) / -2);
@@ -88,7 +90,7 @@ a, li,h4 {
     background-color: #303093;
 }
 .section-title{
-    font-family: 'Pacifico', cursive;
+   color: #303093;
     position: relative;
     display: inline-block;
     
