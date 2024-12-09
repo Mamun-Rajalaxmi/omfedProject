@@ -40,14 +40,10 @@
  .fullservice:hover * {
             color: var(--light)!important;
  }
-  /* h1{
-    font-size: x-large;
-  } */
-   /* .breadcrumb{
-    background-color:transparent !important;
-   } */
+  
   nav .nav-link.active {
     color: var(--primary) !important;
+    font-weight: bold !important;
 }
  .animated {
      font-weight: 500;
@@ -64,9 +60,7 @@
      }
  }
 
-  .px-5{
-    color: #303093;
-  }
+ 
    .row {
     margin-top: calc(var(--bs-gutter-y)* -1);
     margin-right: calc(var(--bs-gutter-x) / -2);
@@ -97,9 +91,6 @@ a, li,h4 {
     font-size: x-large;
     
 }
- /* h5{
-    color: #303093;
-} */
 
 .footer .btn.btn-link {
     display: block;
@@ -166,11 +157,17 @@ a, li,h4 {
             }
         }
 
-        /* .carousel .card {
-            margin: 0 0.5em;
-            border: 0;
-        } */
-
+   
+        .nav-link{ 
+            outline: none;
+            border: none;
+            /* background-color: white; */
+         }
+          .nav-link:hover{
+            background-color: skyblue;
+            color:white !important;
+            cursor: pointer;
+          }
         .carousel-control-prev,
         .carousel-control-next {
             width: 3rem;
