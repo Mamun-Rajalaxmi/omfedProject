@@ -86,7 +86,7 @@ a, li,h4 {
 .section-title{
    color: #303093;
     position: relative;
-    display: inline-block;
+    /* display: inline-block; */
     
     font-size: x-large;
     
@@ -164,8 +164,8 @@ a, li,h4 {
             /* background-color: white; */
          }
           .nav-link:hover{
-            background-color: skyblue;
-            color:white !important;
+            /* background-color: skyblue; */
+            /* color:white !important; */
             cursor: pointer;
           }
         .carousel-control-prev,
