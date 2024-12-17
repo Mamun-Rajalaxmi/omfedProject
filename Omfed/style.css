@@ -1,6 +1,6 @@
 
 :root {
-    --primary:#303093;
+    --primary: #007ffc;
     --light: #F1F8FF;
     --dark: #0F172B;
     
@@ -81,10 +81,10 @@ a, li,h4 {
     font-weight: normal;
     /* text-transform: capitalize; */
     transition: .3s;
-    background-color: #303093;
+   background-image: linear-gradient(#00b7ef, #007ffc);
 }
 .section-title{
-   color: #303093;
+   color: linear-gradient(#00b7ef, #007ffc);
     position: relative;
     /* display: inline-block; */
     
@@ -114,7 +114,7 @@ a, li,h4 {
 }
         .breadcrumbs {
             overflow: hidden;
-            background-color: #303093;
+            background-image: linear-gradient(#00b7ef, #007ffc);
         }
 
         .text-justify {
@@ -172,13 +172,13 @@ a, li,h4 {
         .carousel-control-next {
             width: 3rem;
             height: 3rem;
-            background-color: rgba(128, 128, 128, 0.518);
+            background-color:#00b7ef;
             border-radius: 50%;
             top: 50%;
             transform: translateY(-50%);
         }
       .card-box{
-        box-shadow:  0 0 45px rgba(194, 117, 227, 0.785); 
+        box-shadow:  linear-gradient(#00b7ef, #007ffc) ; 
         
       }
       /* width */
@@ -194,13 +194,13 @@ a, li,h4 {
    
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background:#303093; 
+    background:linear-gradient(#00b7ef, #007ffc); 
     /* border-radius: 10px; */
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background:#303093; 
+    background:linear-gradient(#00b7ef, #007ffc); 
   }
   .secondary{
     background-color:rgb(186, 214, 243);
